@@ -27,7 +27,7 @@ else:
 
     try:
       response = client.models.generate_content(
-          model="gemini-2.5-flash", contents=prompt
+         gemini-1.5-flash  contents=prompt
       )
       bot_response = response.text
     except Exception as e:
